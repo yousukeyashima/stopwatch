@@ -1,0 +1,80 @@
+/* フォント設定 */
+@font-face {
+  font-family: 'DSEG';
+  src: url('./DSEG7Modern-Bold.ttf');
+}
+
+#time {
+  font-family: 'DSEG';
+}
+/* 設定終了 */
+
+.stopwatch-body {
+  width: 400px;
+  background-color: rgb(215, 245, 243);
+  border: 1px solid #666666;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 100px auto 0;
+}
+
+.stopwatch-time {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-stop {
+  background-color: #ff0000;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-stop:hover {
+  opacity: 0.5;
+}
+
+.btn-start {
+  background-color: #00ff00;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-start:hover {
+  opacity: 0.5;
+}
+
+.btn-reset {
+  background-color: #cccccc;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-reset:hover {
+  opacity: 0.5;
+}
+
+.stopwatch-ctrl {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
